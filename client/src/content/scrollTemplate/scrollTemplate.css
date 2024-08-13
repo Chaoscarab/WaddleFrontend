@@ -1,0 +1,35 @@
+.scrollContainer{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: relative;
+    width: 50%;
+    height: calc(100vh - 3em);
+    margin-top: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+
+}
+
+
+
+.scrollContainer::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollContainer {
+    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;
+  }
+
+.activity{
+    height: 2em;
+    width: 30vw;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    border-radius: 1em;
+    background-color: white;
+    border: 1px solid #ccc;   
+}

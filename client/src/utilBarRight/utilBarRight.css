@@ -1,0 +1,11 @@
+#sideBarRight{
+    position: absolute;
+    top: 0em;
+    right: 0em;
+    height: calc(100vh - 3em);
+    z-index: 2;
+    margin-top: 3em;
+}
+.contactsHeader{
+    height: 1.5em;
+}

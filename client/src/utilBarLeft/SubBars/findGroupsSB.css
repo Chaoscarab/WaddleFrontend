@@ -1,0 +1,23 @@
+#findGroupsBarLeft{
+    margin-left: 1em;
+    /* padding-left: 6em; */
+    width: 15vw;
+     padding-right: 1em;
+     border-bottom: solid thin lightgray;
+}
+
+
+#distanceInputLb{
+    margin-top: .75em;
+    display: block;
+}
+#distanceInput{
+    display: block;
+}
+
+#distSubmitBtn{
+    margin-top: .75em;
+    margin-left: .75em;
+    margin-bottom: .75em;
+    display: block;
+}

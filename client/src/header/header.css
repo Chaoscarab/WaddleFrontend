@@ -1,0 +1,190 @@
+#header{
+    padding: none;
+    display: table;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background-color: #65C8F5;
+    z-index: 3;
+}
+
+#logoContainer{
+    display: table-cell;
+    width: 33%;
+}
+
+#logoIcon{
+    margin-left: 1em;
+    vertical-align: bottom;
+    display: inline-block;
+    height: 3em;
+    cursor: pointer;
+}
+
+#logoText{
+    vertical-align: bottom;
+    display: inline-block;
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 3em;
+    line-height: 1em;
+    height: 1em;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#headerBtnCont{
+    width: 33%;
+    display: table-cell;
+}
+#centerBtnCont{
+    width: 100%;
+    display: table;
+}
+.headerBtn{
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: top;
+    display: table-cell;
+    font-family: 'Ropa Sans', sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+    height: 1em;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+.headerBtn:hover{
+    background-color: #3f82a186;
+    border-radius: 25px;
+}
+
+.headerBtn:active{
+    color: grey;
+}
+
+
+#ProfileContainer{
+    display: table;
+    float: right;
+}
+
+#headerEndcap{
+    width: 33%;
+    display: table-cell;
+}
+
+#ProfileImg{
+    position: absolute;
+    height: 2.5em;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+#PflImgLb{
+    position: relative;
+    display: table-cell;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    border-radius: 50%;
+    width: 2.5em;
+    height: 2.5em;
+    vertical-align: top;
+    cursor: pointer;
+}
+#UsernameTxt{
+    margin-left: 1em;
+    margin-right: 1em;
+    padding-left: .5em;
+    padding-right: 1em;
+    vertical-align: top;
+    display: table-cell;
+    font-family: 'Ropa Sans', sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+    height: 1em;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+
+
+
+.profileMenu{
+    position: absolute;
+    top: 3.5em;
+    right: 2em;
+}
+
+.PrUl{
+    list-style: none;
+    border-bottom: solid;
+    border-width: thin;
+    border-color: lightgray;
+
+}
+.PrMItem{
+    cursor: pointer;
+    font-size: 1.25em;
+    margin-right: 1em;
+    
+}
+
+.PrMItem:hover{
+    color: grey;
+}
+
+#loginContainer{
+    display: table;
+    float: right;
+}
+
+#loginBtn{
+    margin-left: 1em;
+    margin-right: 1em;
+    padding-left: .5em;
+    padding-right: .5em;
+    vertical-align: top;
+    display: table-cell;
+    font-family: 'Ropa Sans', sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+    height: 1em;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+
+#signupBtn{
+   
+    padding-left: 1em;
+    padding-right: 1em;
+    vertical-align: top;
+    display: table-cell;
+    font-family: 'Ropa Sans', sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+    height: 1em;
+    color: #ffffff;
+    cursor: pointer; 
+}
+
+#loginBtn:hover{
+    background-color: #3f82a186;
+    border-radius: 25px;
+}
+
+#loginBtn:active{
+    color: grey;
+}
+
+#signupBtn:hover{
+    background-color: #3f82a186;
+    border-radius: 25px;
+}
+
+#signupBtn:active{
+    color: grey;
+}

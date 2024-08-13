@@ -1,0 +1,27 @@
+
+make sure to join all sequential database queries i.e select * from table where id = x or y or z instead of a query for each x y and z
+
+Waddlev7 is the functional version
+
+note if two people send friend requests to each other and they both decline the requests the last person to send a request deletes the request from the other person.
+
+enable https;
+prevent sql injection (note: ensure that data that is pulled from a database isnt sql when put back in)
+
+fix logo position <--Fixed!!!
+
+<iframe> can be used to load google maps inside my app
+
+wadddlev5 has input elements for activites <---Done!!
+
+allow auto remaking of an event based on weekday (ei bowling every wednesday)
+
+google maps api is limited to 25,000 a day without using an authorization signature
+
+move from fetch to axios api calls for security reasons.
+
+
+insure that there is a catch when there are multiple addresses returned from geocordinate api 
+
+migrate to vite from webpack
+

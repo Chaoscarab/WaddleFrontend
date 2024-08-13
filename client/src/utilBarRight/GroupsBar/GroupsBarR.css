@@ -1,0 +1,33 @@
+.ContactsScrollCt{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: relative;
+    width: 15vw;
+    height: 100%;
+    /*height: calc(100% - 1.5em); includes space for header */
+    z-index: 1;
+    padding-right: 1em;
+
+}
+
+
+.ContactsScrollCt::-webkit-scrollbar {
+    display: none;
+}
+
+.ContactsScrollCt {
+    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;
+  }
+
+.ContactsPH{
+    height: 3em;
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    border-radius: 1em;
+    background-color: white;
+    border: 1px solid #ccc;   
+}

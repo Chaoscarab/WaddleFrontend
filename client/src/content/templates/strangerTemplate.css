@@ -1,0 +1,138 @@
+
+
+.FdGrpObCT{
+    width: 100%;
+    border-bottom: solid thin #d3d3d3;
+    
+    padding: 0;
+    margin-bottom: .5em;
+}
+
+.FdGrpIm{
+    position: absolute;
+    height: 2.5em;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.FdGrpImLb{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    border-radius: 50%;
+    width: 2.5em;
+    height: 2.5em;
+}
+
+.FdGrpImCtn{
+    width: auto;   
+}
+
+.FdGrDataCt{
+    height: 100%;
+}
+
+.bottomImgSet1{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -1em;
+    z-index: 3;
+}
+
+.bottomImgSet2{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -1em;
+    z-index: 2;
+}
+
+.bottomImgSet3{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -1em;
+    z-index: 1;
+}
+
+.FdGrpImLb2{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 2em;
+    height: 2em;
+}
+
+.bottomImgSet4{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    margin-bottom: .25em;
+    width: 2em;
+    height: 2em;
+    
+}
+
+.FdGrpIm2{
+    position: absolute;
+    height: 2em;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.GTempLCol{
+   border-right: solid thin lightgray; 
+   padding-right: 0;
+}
+
+
+.GroupDisc{
+    overflow-y: scroll;
+}
+
+.GroupDisc::-webkit-scrollbar {
+    display: none;
+}
+
+.GroupDisc {
+    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;
+  }
+
+
+.GTitle{
+    margin-left: 1em;
+}
+
+
+.GshareBtn{
+    float: right;
+    font-family: 'Ropa Sans', sans-serif;
+    color: #65C8F5;
+    margin-right: 1em;
+    margin-right: .25em;
+    cursor: pointer;
+
+}
+.shareSVG{
+    margin-top: -0.25em;
+    margin-right: .5em;
+    float:right;
+    cursor: pointer;
+}
+
+.GDate{
+    margin-left: 1em;
+    float: left;
+    font-family: 'Ropa Sans', sans-serif;
+}
+.chatIconCt{
+    margin-top: -0.25em;
+    margin-right: .5em;
+    float:right;
+    cursor: pointer; 
+}

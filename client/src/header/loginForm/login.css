@@ -1,0 +1,98 @@
+#loginForm{
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    align-items: center;
+    background-color: white;
+      /* box-shadow: 0px 2px 4px rgb(117, 117, 117); */
+    border-bottom: solid;
+    border-width: thin;
+    border-color: lightgray;
+}
+
+#userNameInContainer{
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#USNLabel{
+    width: 5em;
+    margin-right: 1em;
+    display: inline-block;
+}
+
+#userNameIn{
+    display: inline-block;
+}
+
+#pwForm{
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#pswLabel{
+    width: 5em;
+    margin-right: 1em;
+    display: inline-block;
+}
+
+#pwInContainer{
+    position: relative;
+    display: inline-block;
+}
+
+.eyeCon{
+    position: absolute;
+    height: 1em;
+    top: 28%;
+    right: 4%;
+    cursor: pointer;
+    color: lightgray;
+}
+
+
+
+#LgnBottomButtonBox{
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#SmtLoginBtn{
+    font-family: 'Ropa Sans', sans-serif;
+    color: #65C8F5;
+    display: block;
+    text-align: center;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+#SmtLoginBtn:hover{
+    color: black;
+}
+
+#SmtLoginBtn:active{
+    color: grey;
+}
+
+#FrgtPsswd{
+    display: block;
+    color:  black;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    cursor: pointer;
+    margin-bottom: 1em;
+}
+
+#FrgtPsswd:hover{
+    color: grey;
+}
+
+#FrgtPsswd:active{
+    color: blue;
+}
+

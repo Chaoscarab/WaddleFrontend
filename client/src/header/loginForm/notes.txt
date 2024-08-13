@@ -1,0 +1,8 @@
+add google and apple login
+--> https://www.passportjs.org/packages/passport-google-oauth2/
+
+add username or password retrieval with forgot username or password.
+add two factor authentication
+
+error on all number passwords showing as undefined <--- fixed, sql querys are not case sensitive.
+

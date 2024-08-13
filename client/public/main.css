@@ -1,0 +1,610 @@
+/*!*************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/header/header.css ***!
+  \*************************************************************************/
+#header{
+    padding: none;
+    display: table;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background-color: #65C8F5;
+    z-index: 3;
+}
+
+#logoContainer{
+    display: table-cell;
+    width: 33%;
+}
+
+#logoIcon{
+    margin-left: 1em;
+    vertical-align: bottom;
+    display: inline-block;
+    height: 3em;
+    cursor: pointer;
+}
+
+#logoText{
+    vertical-align: bottom;
+    display: inline-block;
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 3em;
+    line-height: 1em;
+    height: 1em;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#headerBtnCont{
+    width: 33%;
+    display: table-cell;
+}
+#centerBtnCont{
+    width: 100%;
+    display: table;
+}
+.headerBtn{
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: top;
+    display: table-cell;
+    font-family: 'Ropa Sans', sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+    height: 1em;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+.headerBtn:hover{
+    background-color: #3f82a186;
+    border-radius: 25px;
+}
+
+.headerBtn:active{
+    color: grey;
+}
+
+
+#ProfileContainer{
+    display: table;
+    float: right;
+}
+
+#headerEndcap{
+    width: 33%;
+    display: table-cell;
+}
+
+#ProfileImg{
+    position: absolute;
+    height: 2.5em;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+#PflImgLb{
+    position: relative;
+    display: table-cell;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    border-radius: 50%;
+    width: 2.5em;
+    height: 2.5em;
+    vertical-align: top;
+    cursor: pointer;
+}
+#UsernameTxt{
+    margin-left: 1em;
+    margin-right: 1em;
+    padding-left: .5em;
+    padding-right: 1em;
+    vertical-align: top;
+    display: table-cell;
+    font-family: 'Ropa Sans', sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+    height: 1em;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+
+
+
+.profileMenu{
+    position: absolute;
+    top: 3.5em;
+    right: 2em;
+}
+
+.PrUl{
+    list-style: none;
+    border-bottom: solid;
+    border-width: thin;
+    border-color: lightgray;
+
+}
+.PrMItem{
+    cursor: pointer;
+    font-size: 1.25em;
+    margin-right: 1em;
+    
+}
+
+.PrMItem:hover{
+    color: grey;
+}
+
+#loginContainer{
+    display: table;
+    float: right;
+}
+
+#loginBtn{
+    margin-left: 1em;
+    margin-right: 1em;
+    padding-left: .5em;
+    padding-right: .5em;
+    vertical-align: top;
+    display: table-cell;
+    font-family: 'Ropa Sans', sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+    height: 1em;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+
+#signupBtn{
+   
+    padding-left: 1em;
+    padding-right: 1em;
+    vertical-align: top;
+    display: table-cell;
+    font-family: 'Ropa Sans', sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+    height: 1em;
+    color: #ffffff;
+    cursor: pointer; 
+}
+
+#loginBtn:hover{
+    background-color: #3f82a186;
+    border-radius: 25px;
+}
+
+#loginBtn:active{
+    color: grey;
+}
+
+#signupBtn:hover{
+    background-color: #3f82a186;
+    border-radius: 25px;
+}
+
+#signupBtn:active{
+    color: grey;
+}
+/*!**********************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/header/loginForm/login.css ***!
+  \**********************************************************************************/
+#loginForm{
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    align-items: center;
+    background-color: white;
+      /* box-shadow: 0px 2px 4px rgb(117, 117, 117); */
+    border-bottom: solid;
+    border-width: thin;
+    border-color: lightgray;
+}
+
+#userNameInContainer{
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#USNLabel{
+    width: 5em;
+    margin-right: 1em;
+    display: inline-block;
+}
+
+#userNameIn{
+    display: inline-block;
+}
+
+#pwForm{
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#pswLabel{
+    width: 5em;
+    margin-right: 1em;
+    display: inline-block;
+}
+
+#pwInContainer{
+    position: relative;
+    display: inline-block;
+}
+
+.eyeCon{
+    position: absolute;
+    height: 1em;
+    top: 28%;
+    right: 4%;
+    cursor: pointer;
+    color: lightgray;
+}
+
+
+
+#LgnBottomButtonBox{
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#SmtLoginBtn{
+    font-family: 'Ropa Sans', sans-serif;
+    color: #65C8F5;
+    display: block;
+    text-align: center;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+#SmtLoginBtn:hover{
+    color: black;
+}
+
+#SmtLoginBtn:active{
+    color: grey;
+}
+
+#FrgtPsswd{
+    display: block;
+    color:  black;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    cursor: pointer;
+    margin-bottom: 1em;
+}
+
+#FrgtPsswd:hover{
+    color: grey;
+}
+
+#FrgtPsswd:active{
+    color: blue;
+}
+
+
+/*!***********************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/utilBarLeft/utilBarLeft.css ***!
+  \***********************************************************************************/
+ #sideBarLeft{
+    position: absolute;
+    top: 0em;
+    left: 0em;
+    height: calc(100vh - 4em);
+    z-index: 2;
+    margin-top: 4em;
+ }
+/*!*******************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/utilBarLeft/GroupsBar/GroupsBar.css ***!
+  \*******************************************************************************************/
+#GroupsBarBtnsCt{
+    margin-left: 1em;
+   /* padding-left: 6em; */
+   width: 15vw;
+    padding-right: 1em;
+    border-bottom: solid thin lightgray;
+}
+
+
+.GroupBarBtns{
+    display: block;
+    font-size: 1.05em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+/*!******************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/utilBarLeft/SubBars/groupTypes.css ***!
+  \******************************************************************************************/
+#myGroupsBarLeft{
+   margin-left: 1em;
+   /* padding-left: 6em; */
+   width: 15vw;
+    padding-right: 1em;
+    border-bottom: solid thin lightgray;
+}
+
+
+.mGBLBtn{
+   display: block;
+   font-size: 1.05em;
+   margin-top: 1em;
+   margin-bottom: 1em;
+   cursor: pointer;
+}
+/*!********************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/utilBarLeft/SubBars/findGroupsSB.css ***!
+  \********************************************************************************************/
+#findGroupsBarLeft{
+    margin-left: 1em;
+    /* padding-left: 6em; */
+    width: 15vw;
+     padding-right: 1em;
+     border-bottom: solid thin lightgray;
+}
+
+
+#distanceInputLb{
+    margin-top: .75em;
+    display: block;
+}
+#distanceInput{
+    display: block;
+}
+
+#distSubmitBtn{
+    margin-top: .75em;
+    margin-left: .75em;
+    margin-bottom: .75em;
+    display: block;
+}
+
+/*!**********************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/content/templates/StrangerTemplate.css ***!
+  \**********************************************************************************************/
+
+
+.FdGrpObCT{
+    width: 100%;
+    border-bottom: solid thin #d3d3d3;
+    
+    padding: 0;
+    margin-bottom: .5em;
+}
+
+.FdGrpIm{
+    position: absolute;
+    height: 2.5em;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.FdGrpImLb{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    border-radius: 50%;
+    width: 2.5em;
+    height: 2.5em;
+}
+
+.FdGrpImCtn{
+    width: auto;   
+}
+
+.FdGrDataCt{
+    height: 100%;
+}
+
+.bottomImgSet1{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -1em;
+    z-index: 3;
+}
+
+.bottomImgSet2{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -1em;
+    z-index: 2;
+}
+
+.bottomImgSet3{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -1em;
+    z-index: 1;
+}
+
+.FdGrpImLb2{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 2em;
+    height: 2em;
+}
+
+.bottomImgSet4{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    margin-bottom: .25em;
+    width: 2em;
+    height: 2em;
+    
+}
+
+.FdGrpIm2{
+    position: absolute;
+    height: 2em;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.GTempLCol{
+   border-right: solid thin lightgray; 
+   padding-right: 0;
+}
+
+
+.GroupDisc{
+    overflow-y: scroll;
+}
+
+.GroupDisc::-webkit-scrollbar {
+    display: none;
+}
+
+.GroupDisc {
+    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;
+  }
+
+
+.GTitle{
+    margin-left: 1em;
+}
+
+
+.GshareBtn{
+    float: right;
+    font-family: 'Ropa Sans', sans-serif;
+    color: #65C8F5;
+    margin-right: 1em;
+    margin-right: .25em;
+    cursor: pointer;
+
+}
+.shareSVG{
+    margin-top: -0.25em;
+    margin-right: .5em;
+    float:right;
+    cursor: pointer;
+}
+
+.GDate{
+    margin-left: 1em;
+    float: left;
+    font-family: 'Ropa Sans', sans-serif;
+}
+.chatIconCt{
+    margin-top: -0.25em;
+    margin-right: .5em;
+    float:right;
+    cursor: pointer; 
+}
+/*!*************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/content/scrollTemplate/scrollTemplate.css ***!
+  \*************************************************************************************************/
+.scrollContainer{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: relative;
+    width: 50%;
+    height: calc(100vh - 3em);
+    margin-top: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+
+}
+
+
+
+.scrollContainer::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollContainer {
+    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;
+  }
+
+.activity{
+    height: 2em;
+    width: 30vw;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    border-radius: 1em;
+    background-color: white;
+    border: 1px solid #ccc;   
+}
+/*!*************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/utilBarRight/utilBarRight.css ***!
+  \*************************************************************************************/
+#sideBarRight{
+    position: absolute;
+    top: 0em;
+    right: 0em;
+    height: calc(100vh - 3em);
+    z-index: 2;
+    margin-top: 3em;
+}
+.contactsHeader{
+    height: 1.5em;
+}
+/*!*********************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/utilBarRight/GroupsBar/GroupsBarR.css ***!
+  \*********************************************************************************************/
+.ContactsScrollCt{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: relative;
+    width: 15vw;
+    height: 100%;
+    /*height: calc(100% - 1.5em); includes space for header */
+    z-index: 1;
+    padding-right: 1em;
+
+}
+
+
+.ContactsScrollCt::-webkit-scrollbar {
+    display: none;
+}
+
+.ContactsScrollCt {
+    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;
+  }
+
+.ContactsPH{
+    height: 3em;
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    border-radius: 1em;
+    background-color: white;
+    border: 1px solid #ccc;   
+}
+/*!************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/utilBarRight/GroupsBar/ContactsTemplate/contacts.css ***!
+  \************************************************************************************************************/
+
+/*!******************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/global.css ***!
+  \******************************************************************/
+.invisible{
+    display: none;
+}
